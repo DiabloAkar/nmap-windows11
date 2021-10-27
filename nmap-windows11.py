@@ -51,21 +51,21 @@ def multi():
 
     
     elif soru == "1":
-        soru1 = input(Fore.RED+'Your Target= ')
+        soru1 = input(Fore.WHITE+'Your Target= ')
         os.system('nmap -sn '+soru1)
     
     elif soru == "2":
-        soru2 = input(Fore.RED+'Your Target= ')
+        soru2 = input(Fore.WHITE+'Your Target= ')
         os.system('nmap '+soru2)
 
     elif soru == "3":
-        soru3 = input(Fore.RED+'Your Target= ')
+        soru3 = input(Fore.WHITE+'Your Target= ')
         os.system('nmap -sV '+soru3)
     elif soru == "4":
-        soru4 = input(Fore.RED+'Your Target= ')
+        soru4 = input(Fore.WHITE+'Your Target= ')
         os.system('nmap -O '+soru4)
     elif soru == "5":
-        soru5 = input(Fore.RED+'Your Target= ')
+        soru5 = input(Fore.WHITE+'Your Target= ')
         os.system('nmap -sC '+soru5)
     else:
         multi()
