@@ -7,7 +7,7 @@ import socket, requests
 # Bu kodları değiştiren ahkalsızdır.
 # Zamanında bir Atsız varmış var olsun!
 
-subprocess.call('start https://discord.gg/DDcXf472BF', shell=True)
+subprocess.call('start https://discord.gg/zEaPMEh2aj', shell=True)
 subprocess.call('start https://github.com/DiabloAkar', shell=True)
 subprocess.call('start https://nmap.org/dist/nmap-7.92-setup.exe', shell=True)
 
